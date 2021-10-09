@@ -1,0 +1,12 @@
+[book]
+title = "(草稿) 中文版 0 基础 web 编程入门教程"
+description = "TODO"
+
+authors = ["sceext"]
+language = "zh_CN"
+multilingual = false
+src = "源"
+
+[output.html]
+site-url = "/wctz2/"
+git-repository-url = "https://github.com/tpl-ol/wctz2"
