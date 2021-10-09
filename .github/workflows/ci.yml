@@ -1,8 +1,7 @@
 name: CI
 on: [push, pull_request]
 
-env:
-  MDBOOK_VERSION: v0.4.13
+#env:
 
 jobs:
   build:
@@ -14,7 +13,6 @@ jobs:
         with:
           mdbook-version: 'latest'
 
-      - run: mdbook --version
       - run: mdbook build
 
       - run: zip -r book.zip book
